@@ -1,1 +1,3 @@
 node_modules/
+.project
+lib/wordlists/words_no.txt
