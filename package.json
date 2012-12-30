@@ -1,5 +1,5 @@
 {   "name": "wordlist"
-  , "version": "0.0.3" 
+  , "version": "0.0.4" 
   , "main": "lib/wordlist.js"
   , "description": "A library for checking words"
   , "author": "Vegard Hanssen <Vegard.Hanssen@menneske.no>"
@@ -20,4 +20,8 @@
   , "engines": {
   		"node": "*"
     }
+  , "licenses": [{
+        "type": "GPLv3",
+        "url": "http://www.gnu.org/licenses/gpl-3.0.txt"
+    }]
 }
