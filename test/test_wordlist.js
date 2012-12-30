@@ -101,7 +101,23 @@ describe('wordlist', function() {
 		it('should return false when adding word testing to language test second time', function() {
 			wordlist.addWord('test', 'testing').should.be.false;
 		})
-		
-		
+	});
+	
+	describe('#nextCharacters()', function() {
+		it('should return zero on bogus language', function() {
+			wordlist.nextCharacters('dummy', 'test').should.have.length(0);
+		})
+		it('should return [g] on language no when checking fri', function() {
+			wordlist.nextCharacters('no', 'fri').should.eql(['g']);
+		})
+		it('should not be null when checking next character', function() {
+			wordlist.nextCharacters('no', 'fr').should.have.length(1);
+		})
+		it('should have length of zero', function() {
+			wordlist.nextCharacters('no', 'frigjøring').should.have.length(0);
+		})
+		it('should return [e, i] on language en', function() {
+			wordlist.nextCharacters('en', 'test').should.eql(['e', 'i']);
+		})
 	});
 });

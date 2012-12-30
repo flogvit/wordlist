@@ -1,5 +1,5 @@
 {   "name": "wordlist"
-  , "version": "0.0.2" 
+  , "version": "0.0.3" 
   , "main": "lib/wordlist.js"
   , "description": "A library for checking words"
   , "author": "Vegard Hanssen <Vegard.Hanssen@menneske.no>"
@@ -10,10 +10,12 @@
   , "scripts": {
     	"test": "mocha"
     } 
+  , "dependencies": {
+  		"line-reader": ""
+    }
   , "devDependencies": {
     	  "mocha": ""
     	, "should": ""
-    	, "line-reader": ""
     }
   , "engines": {
   		"node": "*"
