@@ -10,9 +10,9 @@ You can do something like this
 	});
 	
 For the moment you need to install wordlists yourself. These are installed
-into the directory lib/wordlists/words_<lang>.txt and contains a word for
+into the directory lib/wordlists/words_&lt;lang&gt;.txt and contains a word for
 each line. One way of making wordlists is using the wordlists from aspell.
 You can generate the wordlists from aspell like this:
 
-	aspell -d en dump master >lib/wordlists/words_en.txt
+	aspell -d en dump master &gt; lib/wordlists/words_en.txt
 
