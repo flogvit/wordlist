@@ -2,6 +2,8 @@
 
 Node.js library to check words in different languages.
 
+[![Build Status](https://travis-ci.org/[flogvit]/[wordlist].png)](https://travis-ci.org/[flogvit]/[wordlist])
+
 You can do something like this
 
 	var wordlist = require('wordlist');
